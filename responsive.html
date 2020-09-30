@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpot" content="width-device-width,initial-scale=1.0">
+	<title>Responsive web design</title>
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+</head>
+<body>
+	<section class="sec">
+		<header>
+			<a href="#" class="logo"><span>S</span>hopify</a>
+			<div class=toggleMenu onclick="menuToggle()"></div>
+			<ul class="navigation">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">CONTACTS</a></li>
+				<li><a href="#">PRODUCTS</a></li>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">HELP</a></li>
+			</ul>
+
+		</header>
+		<div class="content">
+			<div class="textBx">
+				<h2>Online<br>Shopping</h2>
+				<p>Shopify is an easy to use online store builder trusted by over 1,000,000 stores. By entering your email, you agree to receive marketing emails from Shopify. SEO Optimized. Drop Shipping Integration. Unlimited 24/7 Support. Social Media Integration.</p>
+				<a href="#" >Learn more</a>
+			</div>
+		</div>
+		<div class="custom-shape-divider-bottom-1601454964">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+      </div>
+      <img src="Happy Girl with Smartphone - 480x714.png" class="girl">
+	</section>
+	<script type="text/javascript">
+
+       function menuToggle()
+       {
+       	  const toggleMenu = document.querySelector('.toggleMenu');
+
+       	  const navigation = document.querySelector('.navigation');
+       	  toggleMenu.classList.toggle('active');
+       	   navigation.classList.toggle('active');
+       }
+
+
+
+
+		
+	</script>
+
+</body>
+</html>
